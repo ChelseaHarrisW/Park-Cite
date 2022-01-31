@@ -8,14 +8,14 @@ export const findParks = () => {
     let html = ""
     // for each parkObj we want to display the parkArea.name and the parkArea.location properties
     for (const area of parkArea) {
-        html += `<div>`
+        html += `<div class="park">`
         html += ` <h2 id= "parkArea.id--${area.id}">${area.name}</h2>
+        <div class="parkLocation"> ${area.location}</div>`
     
-        <div class="parkImage"> 
-        <img class="parkImg" alt="park" src= "${area.img}" />
+        html +=  `<div class="parkImage"> 
+        <img class="parkImg" alt="park" src= "${area.img}" />`
     
-     <div class="parkLocation"> ${area.location}</div>`
-     html += `</div>`
+        html +=`</div>`
     }
     return html
 }

@@ -14,7 +14,7 @@ const ParkAreaServices = getParkAreaServices()
 
  
 export const findService = () => {
-    let html = "<ul>"
+    let html = "<ul class=service>"
     
     for (const service of Services) {
         html += `<li id="service--${service.id}">${service.type}</li>`
