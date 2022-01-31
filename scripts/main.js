@@ -12,6 +12,7 @@ const applicationHTML = `
         <h2>Park Divisions</h2>
         ${findParks()}
     </section>
+    </article>
     <article class="details">
     <section class="detail--column list details__services">
         <h2>Services</h2>

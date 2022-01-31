@@ -31,8 +31,9 @@ text-color: black;
 }
 
 h1{
-  color: black
-  background-color:
+  color: black;
+  text-align: center
+
 }
 
 h2{
@@ -52,13 +53,16 @@ h2{
 .service{
   
   align-items: right;
-  background-color: aliceblue
-  
-
+  background-color: aliceblue;
+  justify-content: space-between;
+  border-radius: 5px;
+  max-width: 250px;
 }
 
 .guest{
+  align-items: left;
   position: sticky;
-  background-color: aliceblue
+  background-color: aliceblue;
+  justify-content: space-between
 
 }
