@@ -32,8 +32,11 @@ text-color: black;
 
 h1{
   color: black;
-  text-align: center
-
+  text-align: center;
+  margin-top: 5%;
+  align-self: center;
+  justify-self: space;
+  margin-left: 20% ;
 }
 
 h2{
@@ -64,5 +67,23 @@ h2{
   position: sticky;
   background-color: aliceblue;
   justify-content: space-between
+
+}
+
+.details--container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+#header{
+  display: flex;
 
 }
