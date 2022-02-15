@@ -8,7 +8,7 @@ const mainContainer = document.querySelector("#container") // reffrences  the ID
 const applicationHTML = `
     <div id="header">
     <img class="logo" alt="park" src= "https://www.cedarparktexas.gov/home/showpublishedimage/8511/636487491632730000" />
-    <h1>Cider Park</h1>
+    <h1>Cedar Park</h1>
     </div>
     <article class="details">
         <section class="detail--column list details__park">
